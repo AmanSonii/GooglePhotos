@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'FedraSansScreen-Regular';
+    src: url(/content/fonts/FedraSansScreen-Regular.eot) format('embedded-opentype'), url(/content/fonts/FedraSansScreen-Regular.eot?#iefix) format('embedded-opentype'), url(/content/fonts/FedraSansScreen-Regular.woff) format('woff'), url(/content/fonts/FedraSansScreen-Regular.ttf) format('ttf'), url(/content/fonts/FedraSansScreen-Regular.svg#FedraSansScreen-Regular) format('svg');
+}
+
+@font-face {
+    font-family: 'FedraSansScreen-Bold';
+    src: url(/content/fonts/FedraSansScreen-Bold.eot?#iefix) format('embedded-opentype'), url(/content/fonts/FedraSansScreen-Bold.woff) format('woff'), url(/content/fonts/FedraSansScreen-Bold.ttf) format('ttf'), url(/content/fonts/FedraSansScreen-Bold.svg) format('svg');
+}
+
+@font-face {
+    font-family: 'FedraSansScreen-Italic';
+    src: url(/content/fonts/FedraSansScreen-Italic.eot?#iefix) format('embedded-opentype'), url(/content/fonts/FedraSansScreen-Italic.woff) format('woff'), url(/content/fonts/FedraSansScreen-Italic.ttf) format('ttf'), url(/content/fonts/FedraSansScreen-Italic.svg) format('svg');
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+        font-family: 'FedraSansScreen-Regular';
+        src: url(/content/fonts/FedraSansScreen-Regular.eot) format('embedded-opentype'), url(/content/fonts/FedraSansScreen-Regular.eot?#iefix) format('embedded-opentype'), url(/content/fonts/FedraSansScreen-Regular.woff) format('woff'), url(/content/fonts/FedraSansScreen-Regular.ttf) format('ttf'), url(/content/fonts/FedraSansScreen-Regular.svg#FedraSansScreen-Regular) format('svg');
+    }
+
+    @font-face {
+        font-family: 'FedraSansScreen-Bold';
+        src: url(/content/fonts/FedraSansScreen-Bold.eot?#iefix) format('embedded-opentype'), url(/content/fonts/FedraSansScreen-Bold.woff) format('woff'), url(/content/fonts/FedraSansScreen-Bold.ttf) format('ttf'), url(/content/fonts/FedraSansScreen-Bold.svg) format('svg');
+    }
+
+    @font-face {
+        font-family: 'FedraSansScreen-Italic';
+        src: url(/content/fonts/FedraSansScreen-Italic.eot?#iefix) format('embedded-opentype'), url(/content/fonts/FedraSansScreen-Italic.woff) format('woff'), url(/content/fonts/FedraSansScreen-Italic.ttf) format('ttf'), url(/content/fonts/FedraSansScreen-Italic.svg) format('svg');
+    }
+    /*@font-face {
+        font-family: "Fedra Sans Screen";
+        src: url("http://fonts.housingworks.org/c/font_handler1.php?t=d875d3136f") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal
+    }*/
+}

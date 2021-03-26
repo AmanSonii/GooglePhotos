@@ -1,0 +1,65 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en" ng-app="myApp">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="/content/css/bootstrap.css" rel="stylesheet" />
+    <link href="/content/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="/content/css/font-awesome.css" rel="stylesheet" />
+    <link href="/content/css/kendo/kendo.common.min.css" rel="stylesheet" />
+    <link href="/content/css/kendo/kendo.bootstrap.min.css" rel="stylesheet" />
+    <link href="/content/css/toastr.css" rel="stylesheet" />
+    <link href="/content/css/loading-bar.css" rel="stylesheet" />
+    <link href="/content/css/fonts.css" rel="stylesheet" />
+    <link href="/content/css/responsive.css" rel="stylesheet" />
+    <link href="/content/css/default.css" rel="stylesheet" />
+    <link href="/content/css/dashboard.css" rel="stylesheet" />
+
+
+    <script src="/content/js/vendors/misc/modernizr.js"></script>
+    <script src="/content/js/vendors/jquery/jquery-1.12.4.min.js"></script>
+    <script src="/content/js/vendors/bootstrap/bootstrap.js"></script>
+    <script src="/content/js/vendors/misc/toastr.js"></script>
+    <script src="/content/js/vendors/misc/workaround.js"></script>
+    <script src="/content/js/vendors/angular/angular.js"></script>
+    <script src="/content/js/vendors/angular/angular-animate.js"></script>
+    <script src="/content/js/vendors/angular/angular-route.js"></script>
+    <script src="/content/js/vendors/angular/angular-cookies.js"></script>
+    <script src="/content/js/vendors/angular/angular-validator.js"></script>
+    <script src="/content/js/vendors/angular/angular-base64.js"></script>
+    <script src="/content/js/vendors/angular/angular-file-upload.js"></script>
+    <script src="/content/js/vendors/angular/google-picker.js"></script>
+    <script src="/content/js/vendors/angular/ui-bootstrap-tpls-1.3.3.js"></script>
+    <script src="/content/js/vendors/angular/loading-bar.js"></script>
+    <script src="/content/js/vendors/kendo/kendo.all.min.js"></script>
+    <script src="/content/js/vendors/kendo/kendo.culture.en-US.min.js"></script>
+    <script src="/content/js/vendors/angular/ng-img-crop.js"></script>
+
+    <script src="/content/js/vendors/misc/Blob.min.js"></script>
+    <script src="/content/js/vendors/misc/xlsx.core.min.js"></script>
+    <script src="/content/js/vendors/misc/FileSaver.min.js"></script>
+    <script src="/content/js/vendors/misc/tableexport.min.js"></script>
+    <script src="//apis.google.com/js/client.js"></script>
+    <script src="//apis.google.com/js/api.js?key=AIzaSyDSPGwLpJ4cLRP7Hq50K4FaPNeTTLYyWhw"></script>
+    <script src="/content/js/vendors/app/app.js"></script>
+    <title>GooglePhotos</title>
+</head>
+<body ng-controller="rootController">
+    <div style="text-align:center">
+        <button type="button" class="btn btn-primary" lk-google-picker on-picked="onPicked(docs)" on-loaded="onLoaded()" on-cancel="onCancel()">Cilck to get Images</button>
+    </div>
+    <br />
+    <br />
+    <div ng-repeat="image in newProduct.ProductImagesUrl">
+        <img src="{{image}}" />
+        <br />
+    </div>
+</body>
+</html>
+
+

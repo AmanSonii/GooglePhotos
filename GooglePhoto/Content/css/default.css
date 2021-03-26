@@ -1,0 +1,19 @@
+﻿.shortInputSearch {
+    width: 300px !important;
+    float: right !important;
+}
+
+/*img.bannerCarousel {
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+    margin: auto;
+}*/
+
+.text-danger {
+  color: #a94442 !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
